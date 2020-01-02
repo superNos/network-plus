@@ -28,8 +28,6 @@
 	"content_scripts": [
 		{
 		  "matches": [
-				"https://30.5.20.227/*",
-				"http://30.5.20.227/*",
 				"https://juejin.im/*"
 			],
 		  "js": ["./script/content.js"],
@@ -39,8 +37,6 @@
 	  ],
 	"externally_connectable": {
 		"matches": [
-		  "https://30.5.20.227/*",
-		  "http://30.5.20.227/*",
 		  "https://juejin.im/*"
 		]
 	  }
