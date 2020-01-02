@@ -1,6 +1,6 @@
 const CD = chrome.devtools;
 CD.panels.create(
     "Network PLUS",
-    "../img/icon.jpg",
+    "../img/icon.jpeg",
     "../dist/index.html"
 );
